@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TeacherDashboard">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarTeacherDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/background"
+        app:titleTextColor="@color/white"
+        app:title="Profile"
+        app:titleTextAppearance="@style/ToolbarTextAppearance.Title"
+        app:subtitleTextAppearance="@style/ToolbarTextAppearance.Subtitle"
+        style="@style/MyToolbar"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myAllTeacherRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBarTeacherDashboard"/>
+</RelativeLayout>

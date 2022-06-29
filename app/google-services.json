@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "747227153098",
+    "project_id": "tutor-time-f5cff",
+    "storage_bucket": "tutor-time-f5cff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747227153098:android:80ca5408739a55fc31ea33",
+        "android_client_info": {
+          "package_name": "com.example.tutortime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747227153098-u0ep3nrmukrgr2ofetm7rvmp1raokm7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA32523NfEd_tAASdWi55u4miAfDsT90SU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747227153098-u0ep3nrmukrgr2ofetm7rvmp1raokm7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

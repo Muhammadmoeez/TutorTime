@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TeacherRegistrations">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alert"
+                    android:textColor="@color/white"/>
+
+
+                <ImageView
+                    android:id="@+id/profileImageTeacher"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_person"
+
+                    />
+
+                <EditText
+                    android:id="@+id/userNameTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/name"
+                    android:paddingLeft="10dp"
+                    android:inputType="text"
+                    android:maxLength="15"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+                <EditText
+                    android:id="@+id/emailTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/email"
+                    android:inputType="textWebEmailAddress"
+                    android:maxLength="30"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+                <EditText
+                    android:id="@+id/passTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/pass"
+                    android:paddingLeft="10dp"
+                    android:inputType="textPassword"
+                    android:minEms="8"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+                <EditText
+                    android:id="@+id/cPassTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/cPass"
+                    android:paddingLeft="10dp"
+                    android:inputType="textPassword"
+                    android:minEms="8"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+                <CheckBox
+                    android:id="@+id/teacherCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show Password"
+                    android:textColor="@color/white"/>
+
+                <EditText
+                    android:id="@+id/contactNumberTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="phone"
+                    android:maxLength="13"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/contactNumber"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+                <EditText
+                    android:id="@+id/addressTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:hint="@string/address"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+                <EditText
+                    android:id="@+id/ageTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:hint="@string/age"
+                    android:inputType="number"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="20dp"/>
+                <EditText
+                    android:id="@+id/cnicTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:hint="@string/cnic"
+                    android:inputType="phone"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="20dp"/>
+
+                <EditText
+                    android:id="@+id/qualificationTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:inputType="text"
+                    android:hint="@string/qualification"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="20dp"/>
+
+                <EditText
+                    android:id="@+id/experienceTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingLeft="10dp"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="@string/anyExperienceOfTeaching"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="20dp"/>
+
+                <Spinner
+                    android:id="@+id/classesYouCanTeachTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:entries="@array/youCanTeach"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/editTextBg"
+                    android:focusableInTouchMode="true"
+                    android:textSize="25sp"
+                    />
+
+                <Spinner
+                    android:id="@+id/subjectsYouCanTeachTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingLeft="10dp"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="@string/subjectsYouCanTeach"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="20dp"/>
+
+
+
+                <Spinner
+                    android:id="@+id/genderTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:entries="@array/gender"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/editTextBg"
+                    android:focusableInTouchMode="true"
+                    android:textSize="25sp"
+                    />
+
+                <Spinner
+                    android:id="@+id/howDidYouFindUsTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:entries="@array/howDidYouFindUs"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/editTextBg"
+                    android:focusableInTouchMode="true"
+                    android:textSize="25sp"/>
+
+
+
+                <Button
+                    android:id="@+id/saveDataTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/signUp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/signup_bg"/>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

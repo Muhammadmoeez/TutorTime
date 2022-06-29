@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title=""
+        android:id="@+id/addNewProfile"
+        android:icon="@drawable/ic_add_person"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:title="Profile Setting"
+        android:id="@+id/settingAdminProfile"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:title="Logout"
+        android:id="@+id/logoutAdminProfile"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>
